@@ -250,6 +250,26 @@
         </div>
     </section>
     <!--End Feedback Section-->
+
+    <section class="case-section">
+        <div class="auto-container">
+            <!--Sec Title-->
+            <div class="sec-title centered">
+                <div class="icon-box">
+                    <span class="icon flaticon-broom"></span>
+                </div>
+                <h2>Video</h2>
+                <div class="separator"></div>
+            </div>
+            <div class="col-md-12">
+                <iframe class="col-md-4" width="290" height="200" src="https://www.youtube.com/embed/ruzTxQoF-q4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                <iframe class="col-md-4" width="290" height="200" src="https://www.youtube.com/embed/Hez1lEKNUOY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                <iframe class="col-md-3" width="290" height="200" src="https://www.youtube.com/embed/8x3tegXN1ec" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
 <?php
     $this->load->view('frontend/footer');
 ?>

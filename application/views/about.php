@@ -42,6 +42,13 @@ $this->load->view('frontend/menu')?>
                         <?php echo $detail->description ?>
                     </div>
                 </div>
+                <?php 
+                    if (isset($_SESSION['affNameAgent']) && isset($_SESSION[
+                        'affPhoneAgent'])) {
+                        echo "<br>Nama Agen : ".$_SESSION['affNameAgent'];
+                        echo "<br>Telp      : ".$_SESSION['affPhoneAgent'];
+                    }
+                ?>
             </div>
             
         </div>
